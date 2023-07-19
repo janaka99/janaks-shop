@@ -139,7 +139,7 @@ const Banner = () => {
           {">"}
         </button>
         <div className="absolute w-full bottom-2 justify-center left-0 z-[100] flex gap-5 items-center">
-          {images.map((img, imageIndex) =>
+          {images.map((_, imageIndex) =>
             imageIndex === currentIndex ? (
               <div className="w-4 h-4 border-2 rounded-[50%] flex items-center justify-center border-gray-300 transition-transform duration-500">
                 <div className="w-2 h-2 bg-gray-300  rounded-[50%]"></div>
