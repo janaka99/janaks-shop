@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+@layer base {
+  :root {
+    --color-text-base: #1D242D;
+    --color-text-muted: #BDC4CC;
+    --color-fill-primary: #FFFFFF;
+    --color-fill-secondary: #EAEEF2;
+  }
+
+  .dark-theme{
+    --color-text-base: #FFFFFF;
+    --color-text-muted: #dddddd93;
+    --color-fill-primary: #1D242D;
+    --color-fill-secondary: #2c3542;
+  }
+
+}
+
+.anim {
+  @apply transition-colors duration-500
+}
+
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
