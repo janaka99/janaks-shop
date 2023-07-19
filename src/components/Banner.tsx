@@ -12,12 +12,15 @@ const Banner = () => {
 
   const images = [
     {
+      alt: "banners",
       url: "https://images.unsplash.com/photo-1675108657868-de290421805a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
     },
     {
+      alt: "banners",
       url: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
     },
     {
+      alt: "banners",
       url: "https://images.unsplash.com/photo-1432712641917-22ce322ab531?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80",
     },
   ];
@@ -123,7 +126,7 @@ const Banner = () => {
             <img
               className="w-full min-w-full h-full object-cover brightness-[55%] transition-all duration-500"
               src={`${images[imgIndex]?.url}`}
-              alt=""
+              alt={img.alt}
             />
           ))}
         </div>

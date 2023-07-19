@@ -1,4 +1,3 @@
-import { useState } from "react";
 import TopCategoriesCard from "./TopCategoriesCard";
 
 const CurratedPicks = () => {
