@@ -7,8 +7,8 @@ import Title from "../components/Title";
 
 const Home = () => {
   return (
-    <main className="flex w-full flex-col bg-primary-color anim">
-      <section className="w-[90%] h-[75vh] py-12 flex mx-auto justify-center items-start rounded-[20px] overflow-hidden ">
+    <main className="flex w-full flex-col bg-primary-color anim ">
+      <section className="w-[90%] h-[calc(100vh-96px)] py-12 flex mx-auto justify-center items-start rounded-[20px] overflow-hidden ">
         <Banner />
       </section>
       <section className="w-[90%] max-w-[1440px] py-12 flex mx-auto flex-col gap-10 overflow-hidden">
