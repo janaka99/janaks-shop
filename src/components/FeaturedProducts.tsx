@@ -1,4 +1,3 @@
-import { HiOutlineShoppingCart } from "react-icons/hi";
 import FeaturedProductCard from "./FeaturedProductCard";
 
 const FeaturedProducts = () => {

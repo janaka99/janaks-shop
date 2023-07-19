@@ -1,10 +1,7 @@
-import { PiArrowBendUpRightFill } from "react-icons/pi";
-import { useRef, useState } from "react";
+import { useState } from "react";
 import TopCategoriesCard from "./TopCategoriesCard";
 
 const CurratedPicks = () => {
-  const [isHoverActive, setisHoverActive] = useState(false);
-
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">

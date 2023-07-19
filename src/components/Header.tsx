@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useThemeContext } from "../themeContext/ThemeContext";
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
-import { CiBurger, CiDark, CiMenuBurger } from "react-icons/ci";
+import { CiDark } from "react-icons/ci";
 import { TiLightbulb } from "react-icons/ti";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useState } from "react";

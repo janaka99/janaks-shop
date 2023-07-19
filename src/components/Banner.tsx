@@ -3,7 +3,6 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const Banner = () => {
-  const timerRef = useRef<any>(null);
   const divRef = useRef<HTMLDivElement>(null);
   const [isLeft, setIsLeft] = useState(true);
   const [isRight, setisRight] = useState(true);
@@ -54,10 +53,6 @@ const Banner = () => {
     if (divRef.current) {
       divRef.current.style.transform = `translateX(${translateX}%)`;
     }
-  };
-
-  const dotClicker = (key: any) => {
-    setCurrentIndex(key);
   };
 
   useEffect(() => {
