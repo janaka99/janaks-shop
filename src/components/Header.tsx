@@ -35,12 +35,12 @@ const Header = () => {
   };
 
   return (
-    <header className="flex w-screen h-20 bg-primary-color  anim over relative z-[201] ">
+    <header className="flex w-[90%] max-w-[1440px] mx-auto w-screen h-20 bg-primary-color  anim over relative z-[201] ">
       <motion.nav
         initial="hidden"
         animate="visible"
         variants={slideInVariants}
-        className={` w-screen px-[5%] md:w-[90%] md:px-[0] flex mx-auto justify-between items-center `}
+        className={` w-screen   md:px-[0] flex mx-auto justify-between items-center `}
       >
         <div className="text-xl md:2xl text-base-color  font-bold tracking-tighter transfor subpixel-antialiased anim">
           JANAKA'S SHOP
