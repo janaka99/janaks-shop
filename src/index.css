@@ -25,8 +25,8 @@ body {
   .dark-theme{
     --color-text-base: #FFFFFF;
     --color-text-muted: #dddddd93;
-    --color-fill-primary: #1D242D;
-    --color-fill-secondary: #2c3542;
+    --color-fill-primary: #0d0d0d;
+    --color-fill-secondary: #1d1d1d;
   }
 
 }
