@@ -19,11 +19,11 @@ const FeaturedProductCard = ({ imageSrc, text }: props) => {
 
   const slideInVariants = {
     hidden: {
-      x: "100%", // Initially positioned to the top
+      y: "100%", // Initially positioned to the top
       opacity: 0, // Initially transparent
     },
     visible: {
-      x: 0, // Slides to 0 (center)
+      y: 0, // Slides to 0 (center)
       opacity: 1, // Fades in
       transition: {
         delay: 0.5,

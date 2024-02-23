@@ -1,12 +1,9 @@
 import { useState } from "react";
 import { PiArrowBendUpRightFill } from "react-icons/pi";
 import { motion } from "framer-motion";
-type Props = {
-  imageSrc: any;
-  text: string;
-};
+import { Props } from "./TopCategoriesCard";
 
-const TopCategoriesCard = ({ imageSrc, text }: Props) => {
+export const TopCategoriesCard = ({ imageSrc, text }: Props) => {
   const [isHover, setisHover] = useState(false);
 
   const handleMouseEnter = () => {
@@ -57,5 +54,3 @@ const TopCategoriesCard = ({ imageSrc, text }: Props) => {
     </motion.div>
   );
 };
-
-export default TopCategoriesCard;
