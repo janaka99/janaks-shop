@@ -26,8 +26,8 @@ const FeaturedProductCard = ({ imageSrc, text }: props) => {
       y: 0, // Slides to 0 (center)
       opacity: 1, // Fades in
       transition: {
-        delay: 0.5,
-        duration: 0.5, // Animation duration
+        delay: 0.2,
+        duration: 0.2, // Animation duration
         ease: "easeOut", // Easing function
       },
     },
