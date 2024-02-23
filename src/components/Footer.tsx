@@ -29,12 +29,12 @@ const Footer = () => {
         <div className="w-[90%] max-w-[1440px] mx-auto border-t-[1px] border-muted-color text-center pt-10 text-base-color flex justify-between">
           <div className="">
             DESIGNED & BUILT BY{" "}
-            <a className="underline" href="https://janaka99.netlify.app">
+            <a className="underline" href="https://janakachamith.online">
               JANAKA CHAMITH
             </a>
           </div>
           <div className="">
-            Copyright @2023 Janaka's Shop.All right reserved
+            Copyright @2023 Janaka's Shop. All rights reserved
           </div>
         </div>
       </div>
